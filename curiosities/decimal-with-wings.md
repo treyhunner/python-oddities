@@ -98,3 +98,8 @@ Decimal('0.0')
 ```
 
 Thanks to [Glyph](https://mastodon.social/@glyph/112729486996460973), I'll now be calling this "Totoro's Zero".
+
+
+## CPython bug
+
+I decided to [open an issue for this](https://github.com/python/cpython/issues/121382) since this inconsistency *is* a bug (albeit a minor one).
