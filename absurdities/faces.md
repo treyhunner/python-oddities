@@ -1,18 +1,18 @@
 What's this do?
 
-```pycon
+```
 >>> O_o = 0_0
 ```
 
 And this?
 
-```pycon
+```
 >>> o_o = 0o0
 ```
 
 What about this?
 
-```pycon
+```
 >>> o_O = 0,0
 ```
 
@@ -55,14 +55,14 @@ Which can be helpful for breaking up binary flags into 4-digit parts:
 
 Any number of `0` digits will make `0` in Python, so `0_0` is `0`:
 
-```pycon
+```
 >>> 0_0
 0
 ```
 
 Underscores are allowed in variable names, so `O_o` is simply a variable.
 
-```pycon
+```
 >>> O_o = 0_0
 ```
 
