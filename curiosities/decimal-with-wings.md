@@ -96,3 +96,5 @@ But the `decimal.Decimal` type seems to be more lenient in its parsing:
 >>> Decimal("____0____.____0____")
 Decimal('0.0')
 ```
+
+Thanks to [Glyph](https://mastodon.social/@glyph/112729486996460973), I'll now be calling this "Totoro's Zero".
