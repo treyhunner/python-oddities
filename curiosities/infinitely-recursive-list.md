@@ -45,6 +45,11 @@ I say fortunately because otherwise Python would need to print an infinite numbe
 
 This is something the `list` and `dict` classes *specially* handle.
 
+I discuss this in [this Python Oddities talk](https://youtu.be/nWC73Llo170?feature=shared&t=624) and [this keynote from PyOhio 2024](https://youtu.be/APuLJ4pfM4c?feature=shared&t=1002) as well as [this screencast](https://www.pythonmorsels.com/data-structures-contain-pointers/#an-ouroboros-a-list-that-contains-itself).
+
+
+## What about a custom object?
+
 If we made our own class tried to look at a string representation of an object that pointed to itself, by default we'd get a recursion error:
 
 ```pycon
